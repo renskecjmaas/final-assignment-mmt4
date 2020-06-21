@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholetask blok 1.4</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flickity.min.css" media="screen">
+    <link src="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  <!------------------------------------header------------------------------------->
+    <header>
+      <!--header text-->
+      <div id="headerTextWrapper">
+        <h1>Van beginner naar expert</h1>
+        <h1>Het lesmateriaal brengt je verder</h1>
+        <p class="textHeader">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+      </div>
+      <!--pink filter on header image-->
+      <div id="filterHeader"></div>
+
+      <!--header wrapper-->
+      <div class="headerWrapper">
+        <img id="logo" src="img/logo@2x.png" alt="Logo">
+
+        <!--nav-->
+        <nav class="clearfix">
+          <ul>
+            <li><a href="#">over ons</a></li>
+            <li><a href="#">lesmateriaal</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+
+        <!--color theme switch-->
+        <div id="switch">
+          <img id="moon" src="img/moon@2x.png" alt="Sun">
+          <img id="sun" src="img/sun@2x.png" alt="Moon">
+        </div>
+        <a href="#" id="buttonSwitch"></a>
+    </header>
+ <!------------------------------------main------------------------------------->
+    <main>
+      <!--3 boxes-->
+      <div class="boxWrapper clearfix">
+        <a href="#"><div class="box">
+          <img class="boxGraph" src="img/leer@2x.png" alt="Leer">
+          <p class="boxText">Leer</p>
+        </div></a>
+        <a href="#"><div class="box">
+          <img class="boxGraph" src="img/codeer@2x.png" alt="Codeer">
+          <p class="boxText">Codeer</p>
+        </div></a>
+        <a href="#"><div class="box">
+          <img class="boxGraph" src="img/speel@2x.png" alt="Codeer">
+          <p class="boxText">Speel</p>
+        </div></a>
+      </div>
+
+      <!--video accordion-->
+      <div id="accordionWrapper">
+        <h3 class="accordionTitle">Playlist</h3>
+        <div id="accordion">
+          <h2>Algemene introductie</h2>
+          <div>
+            <div class="videoWrap">
+              <video id="my-video1" class="video-js" preload="auto" data-setup="{}"><source src="https://player.vimeo.com/external/426176050.hd.mp4?s=54a5d5130ac0a0ce116641faf106f43b22475a59&profile_id=174" type="video/mp4"></video>
+              <div class="videoButtons">
+                <a href="#" class="playButton"></a>
+                <a href="#" class="rewindButton"></a>
+                <a href="#" class="forwardButton"></a>
+              </div>
+              <div class="popUp">
+                <p>To be continued...</p>
+                <div class="smiley">
+                  <div class="eye1">
+                    <div class="pupil1"></div>
+                  </div>
+                  <div class="eye2">
+                    <div class="pupil2"></div>
+                  </div>
+                  <img class="mouth" src="img/smileyMouth.png" alt="Mouth Smiley">
+                  <img class="hair" src="img/smileyHair.png" alt="Hair Smiley">
+                </div>
+                <a href="#"><img class="quit" src="img/iconCross.png" alt="Quit"></a>
+              </div>
+            </div>
+          </div>
+          <h2>Workshop 1: Kleuren met code</h2>
+          <div>
+            <div class="videoWrap">
+              <video id="my-video2" class="video-js" preload="auto" data-setup="{}"><source src="https://player.vimeo.com/external/409289879.hd.mp4?s=99b15ef1343b493be3b3530cef5b13221cacafd8&profile_id=175" type="video/mp4"></video>
+              <div class="videoButtons">
+                <a href="#" class="playButton"></a>
+                <a href="#" class="rewindButton"></a>
+                <a href="#" class="forwardButton"></a>
+              </div>
+              <div class="popUp">
+                <p>To be continued...</p>
+                <div class="smiley">
+                  <div class="eye1">
+                    <div class="pupil1"></div>
+                  </div>
+                  <div class="eye2">
+                    <div class="pupil2"></div>
+                  </div>
+                  <img class="mouth" src="img/smileyMouth.png" alt="Mouth Smiley">
+                  <img class="hair" src="img/smileyHair.png" alt="Hair Smiley">
+                </div>
+                <a href="#"><img class="quit" src="img/iconCross.png" alt="Quit"></a>
+              </div>
+            </div>
+          </div>
+          <h2>Workshop 2: Vormen maken</h2>
+          <div>
+            <div class="videoWrap">
+              <video id="my-video3" class="video-js" preload="auto" data-setup="{}"><source src="https://player.vimeo.com/external/430810269.hd.mp4?s=42cfa24998775c65c40347f915078864a1c39126&profile_id=175" type="video/mp4"></video>
+              <div class="videoButtons">
+                <a href="#" class="playButton"></a>
+                <a href="#" class="rewindButton"></a>
+                <a href="#" class="forwardButton"></a>
+              </div>
+              <div class="popUp">
+                <p>To be continued...</p>
+                <div class="smiley">
+                  <div class="eye1">
+                    <div class="pupil1"></div>
+                  </div>
+                  <div class="eye2">
+                    <div class="pupil2"></div>
+                  </div>
+                  <img class="mouth" src="img/smileyMouth.png" alt="Mouth Smiley">
+                  <img class="hair" src="img/smileyHair.png" alt="Hair Smiley">
+                </div>
+                <a href="#"><img class="quit" src="img/iconCross.png" alt="Quit"></a>
+              </div>
+            </div>
+          </div>
+          <h2>Workshop 3: Beweging</h2>
+          <div>
+            <div class="videoWrap">
+              <video id="my-video4" class="video-js" preload="auto" data-setup="{}"><source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4"></video>
+              <div class="videoButtons">
+                <a href="#" class="playButton"></a>
+                <a href="#" class="rewindButton"></a>
+                <a href="#" class="forwardButton"></a>
+              </div>
+              <div class="popUp">
+                <p>To be continued...</p>
+                <div class="smiley">
+                  <div class="eye1">
+                    <div class="pupil1"></div>
+                  </div>
+                  <div class="eye2">
+                    <div class="pupil2"></div>
+                  </div>
+                  <img class="mouth" src="img/smileyMouth.png" alt="Mouth Smiley">
+                  <img class="hair" src="img/smileyHair.png" alt="Hair Smiley">
+                </div>
+                <a href="#"><img class="quit" src="img/iconCross.png" alt="Quit"></a>
+              </div>
+            </div>
+          </div>
+          <h2>Workshop 4: Variabelen gebruiken</h2>
+          <div>
+            <div class="videoWrap">
+              <video id="my-video5" class="video-js" preload="auto" data-setup="{}"><source src="https://player.vimeo.com/external/430813457.hd.mp4?s=b0ab32f302d0ced963e9f851821b95b61ae536e5&profile_id=175" type="video/mp4"></video>
+              <div class="videoButtons">
+                <a href="#" class="playButton"></a>
+                <a href="#" class="rewindButton"></a>
+                <a href="#" class="forwardButton"></a>
+              </div>
+              <div class="popUp">
+                <p>The end</p>
+                <div class="smiley">
+                  <div class="eye1">
+                    <div class="pupil1"></div>
+                  </div>
+                  <div class="eye2">
+                    <div class="pupil2"></div>
+                  </div>
+                  <img class="mouth" src="img/smileyMouth.png" alt="Mouth Smiley">
+                  <img class="hair" src="img/smileyHair.png" alt="Hair Smiley">
+                </div>
+                <a href="#"><img class="quit" src="img/iconCross.png" alt="Quit"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--call to action-->
+      <div id="callWrapper">
+        <h3 class="callTitle">Support</h3>
+        <div class="clearfix">
+          <p class="callText">Onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <a href="#" class="callButton">Naar contact</a>
+        </div>
+      </div>
+
+      <!--horizontal slider contact-->
+      <div class="main-gallery">
+        <div class="gallery-cell">
+          <p class="contactName">Alina kovalchuk</p>
+          <p class="contactFunction">Hoofd support</p>
+          <a href="#" class="contactMail">Mail</a>
+          <img class="contactPhoto" src="img/alina-kovalchuk-1143928-unsplash.jpg" alt="Alina kovalchuk">
+        </div>
+        <div class="gallery-cell">
+          <p class="contactName">Gorgie Encinas</p>
+          <p class="contactFunction">Hoofd support</p>
+          <a href="#" class="contactMail">Mail</a>
+          <img class="contactPhoto" src="img/giorgio-encinas-781653-unsplash.jpg" alt="Gorgie Encinas">
+        </div>
+        <div class="gallery-cell">
+          <p class="contactName">Kal Visuals</p>
+          <p class="contactFunction">Hoofd support</p>
+          <a href="#" class="contactMail">Mail</a>
+          <img class="contactPhoto" src="img/kal-visuals-592091-unsplash.jpg" alt="Kal Visuals">
+        </div>
+        <div class="gallery-cell">
+          <p class="contactName">Norman Toth</p>
+          <p class="contactFunction">Hoofd support</p>
+          <a href="#" class="contactMail">Mail</a>
+          <img class="contactPhoto" src="img/norman-toth-177973-unsplash.jpg" alt="Norman Toth">
+        </div>
+      </div>
+    </main>
+<!------------------------------------footer------------------------------------->
+    <footer>
+      <!--pink filter on footer image-->
+      <div id="filterFooter"></div>
+
+      <!--footer text-->
+      <div class="footerTextWrapper">
+        <h2 class="titleFooter">Klaar voor de volgende uitdaging?</h2>
+        <p class="textFooter">In ons expertprogramma vind je lessen voor gevorderden</p>
+        <a href="#" class="callButtonFooter">Kom maar op</a>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://vjs.zencdn.net/6.4.0/video.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
